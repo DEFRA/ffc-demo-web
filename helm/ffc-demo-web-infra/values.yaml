@@ -7,3 +7,8 @@ namespaceTopics:
   - name: claim-notify
     roleAssignments:
       - roleName: 'TopicSender'
+
+storageAccounts:
+  - name: asostdebug001
+    blobContainers:  
+      - name: container-01
