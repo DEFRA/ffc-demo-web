@@ -9,6 +9,13 @@ namespaceTopics:
       - roleName: 'TopicSender'
 
 storageAccounts:
-  - name: asostdebug001
+  - name: asostdebug150201
     blobContainers:  
       - name: container-01
+  - name: asostdebug150202
+    storageAccountsBlobService:
+      containerDeleteRetentionPolicy:
+        days: 15
+        enabled: true
+    blobContainers:  
+      - name: container-01  
