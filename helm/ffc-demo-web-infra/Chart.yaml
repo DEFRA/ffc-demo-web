@@ -4,6 +4,6 @@ description: A ASO Helm chart to deploy the FFC Demo Web Infrastructure
 version: 0.0.1
 dependencies:
 - name: adp-aso-helm-library
-  version: adp-aso-helm-library-1.0.17-prerelease1.tgz
+  version: 1.0.17-prerelease1
   repository: https://raw.githubusercontent.com/defra/adp-helm-repository/main/adp-aso-helm-library
 
