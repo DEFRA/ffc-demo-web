@@ -9,7 +9,7 @@ namespaceTopics:
       - roleName: 'TopicSender'
 
 storageAccounts:
-  - name: ffcdemoadpinfst1401
+  - name: st11
     blobContainers:  
       - name: container-01
         roleAssignments:
