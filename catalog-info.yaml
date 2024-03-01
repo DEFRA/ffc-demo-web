@@ -13,6 +13,7 @@ metadata:
     sonarqube.org/project-key: adp-ffc-demo-web
     backstage.io/techdocs-ref: dir:.
     defra.com/techdocs-builder: local
+    grafana/dashboard-selector: "folderTitle == 'Managed Prometheus'"
     backstage.io/kubernetes-id: ffc-demo-web
   tags:
     - node
@@ -20,6 +21,14 @@ metadata:
     - redis
     - external
     - front-end
+  links:
+    - url: https://github.com/DEFRA/ffc-demo-web
+      title: View repository
+      icon: github
+    - url: https://dev.azure.com/defragovuk/DEFRA-FFC/_build?definitionId=4806
+      title: CI/CD Pipeline
+    - url: https://sonarcloud.io/project/overview?id=adp-ffc-demo-web
+      title: SonarCloud Analysis
 spec:
   type: frontend
   lifecycle: beta
