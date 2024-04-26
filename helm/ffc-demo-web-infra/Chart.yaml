@@ -5,5 +5,5 @@ version: 0.0.1
 dependencies:
 - name: adp-aso-helm-library
   version: 1.0.20-prerelease4
-  repository: https://raw.githubusercontent.com/defra/adp-helm-repository/main/adp-aso-helm-library
+  repository: https://raw.githubusercontent.com/defra/adp-helm-repository/sm/337709/RemovePrivateEndpoints/adp-aso-helm-library
 
