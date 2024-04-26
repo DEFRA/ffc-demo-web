@@ -16,7 +16,7 @@ storageAccounts:
           - roleName: 'BlobDataContributor' 
       - name: container-02
         roleAssignments:
-          - roleName: 'BlobDataReader'   
+          - roleName: 'BlobDataContributor'   
     tables:  
       - name: table01  
         roleAssignments:
