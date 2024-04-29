@@ -9,7 +9,7 @@ namespaceTopics:
       - roleName: 'TopicSender'
 
 storageAccounts:
-  - name: demoweb100
+  - name: demoweb
     blobContainers:  
       - name: container-01
         roleAssignments:
