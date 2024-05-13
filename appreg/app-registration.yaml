@@ -1,0 +1,14 @@
+- AppRegName: "{{servicename}}-{{environment}}-Frontend"
+  IsForLoginUI: True
+  IsForDynamics: False
+  redirectUris: 
+    - "https://{{servicename}}.{{environment}}.adp.defra.gov.uk/signin-oidc" 
+  accessGroups: 
+    - "UserEntra-{{servicename}}-{{environment}}-Frontend"       
+- AppRegName: "{{servicename}}-{{environment}}-Backend"
+  IsForLoginUI: False
+  IsForDynamics: True
+  redirectUris: 
+    - "https://{{servicename}}.{{environment}}.crm.defra.gov.uk/letmelogin" 
+  accessGroups: 
+    - "UserEntra-{{servicename}}-{{environment}}-Backend"        
