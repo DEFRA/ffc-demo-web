@@ -20,4 +20,8 @@ storageAccounts:
     tables:  
       - name: table01  
         roleAssignments:
-          - roleName: 'TableDataContributor'       
+          - roleName: 'TableDataContributor'
+
+storageAccountSku: "Standard_LRS"
+
+    
