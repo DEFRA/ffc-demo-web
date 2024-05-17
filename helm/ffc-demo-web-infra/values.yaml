@@ -22,6 +22,6 @@ storageAccounts:
         roleAssignments:
           - roleName: 'TableDataContributor'
 
-storageAccountSku: Standard_RAGRS
+storageAccountSku: 'Standard_RAGRS'
 
     
