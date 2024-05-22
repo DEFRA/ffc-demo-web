@@ -21,3 +21,4 @@ storageAccounts:
       - name: table01  
         roleAssignments:
           - roleName: 'TableDataContributor'   
+
