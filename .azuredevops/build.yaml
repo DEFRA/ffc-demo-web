@@ -44,7 +44,7 @@ extends:
     serviceName: "ffc-demo-web"
     deployFromFeature: ${{ parameters.deployFromFeature }}
     deployConfigOnly: ${{ parameters.deployConfigOnly }}
-    includePlatformEnvs: true
+    includePlatformEnvs: false
     appBuildConfig:
       appFrameworkType: "nodejs"  
       projectPath: "./package.json"
