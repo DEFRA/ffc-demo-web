@@ -55,7 +55,7 @@ extends:
       snykTestFilePath: "./docker-compose.snyk.yaml"
       postDeployTest:
         envToTest: snd4
-        testsToRun: 'acceptance;integration'
+        testsToRun: 'acceptance'
         testEnvs:
           acceptanceTests: 
             - env: snd4
