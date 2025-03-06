@@ -35,8 +35,9 @@ resources:
       name: DEFRA/adp-pipeline-common
       endpoint: DEFRA
       type: github
-      ref: refs/tags/1.0.0-latest
-            
+      #ref: refs/tags/1.0.0-latest
+      ref: feature/PL-140
+
 extends:
   template: /pipelines/common-app-build.yaml@DEFRA-ADPPipelineCommon
   parameters:
@@ -46,7 +47,7 @@ extends:
     deployConfigOnly: ${{ parameters.deployConfigOnly }}
     includePlatformEnvs: false
     appBuildConfig:
-      appFrameworkType: "nodejs"  
+      appFrameworkType: "nodejs"
       projectPath: "./package.json"
       manifestPath: "./package.json"
       imageRepoName: "ffc-demo-web"
@@ -57,12 +58,11 @@ extends:
         envToTest: snd4
         testsToRun: 'acceptance'
         testEnvs:
-          acceptanceTests: 
+          acceptanceTests:
             - env: snd4
               tags: '@demotag'
     appDeployConfig:
       filepath: "./appConfig"
-      filetype: "yaml"    
-      variableGroups: 
+      filetype: "yaml"
+      variableGroups:
         - ffc-demo-web-<environment>
-
